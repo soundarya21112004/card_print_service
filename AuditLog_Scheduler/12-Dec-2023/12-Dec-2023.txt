@@ -1,0 +1,2 @@
+{"0":"12-Dec-2023 12:24:09","1":"CSV Job running.."},
+{"0":"12-Dec-2023 12:24:09","1":"Exception Error creating bean with name 'dataSourceScriptDatabaseInitializer': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)"},

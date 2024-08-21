@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.aws.datasource.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.aws.datasource.url."
+  }
+] }
