@@ -36,13 +36,19 @@ pipeline {
                 sh '''
                     set -e
 
+                    export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+                    export PATH=$JAVA_HOME/bin:$PATH
+
+                    echo "========================================="
                     echo "Java version:"
                     java -version
 
+                    echo "========================================="
                     echo "Maven version:"
                     mvn -version
 
-                    echo "Running Maven build..."
+                    echo "========================================="
+                    echo "Running Maven build with Java 11..."
 
                     mvn clean package
                 '''
